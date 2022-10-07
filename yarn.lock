@@ -7321,6 +7321,7 @@ __metadata:
   dependencies:
     "@redwoodjs/api": 3.1.1
     "@redwoodjs/graphql-server": 3.1.1
+    better-fs: ^11.0.4
   languageName: unknown
   linkType: soft
 
@@ -8206,6 +8207,16 @@ __metadata:
   version: 0.6.1
   resolution: "batch@npm:0.6.1"
   checksum: 925a13897b4db80d4211082fe287bcf96d297af38e26448c857cee3e095c9792e3b8f26b37d268812e7f38a589f694609de8534a018b1937d7dc9f84e6b387c5
+  languageName: node
+  linkType: hard
+
+"better-fs@npm:^11.0.4":
+  version: 11.0.4
+  resolution: "better-fs@npm:11.0.4"
+  dependencies:
+    "@types/graceful-fs": ^4.1.3
+    graceful-fs: ^4.2.3
+  checksum: 21b649516bbf1775f09c399aebf5d2ee507891392a8a6b2773e6d329951ef3ad6b18170f0c35b43adb4e26abfb77ac16265be1ab84058a17e273d3d09f5fbb2c
   languageName: node
   linkType: hard
 
@@ -13253,7 +13264,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graceful-fs@npm:^4.1.11, graceful-fs@npm:^4.1.15, graceful-fs@npm:^4.1.2, graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0, graceful-fs@npm:^4.2.4, graceful-fs@npm:^4.2.6, graceful-fs@npm:^4.2.9":
+"graceful-fs@npm:^4.1.11, graceful-fs@npm:^4.1.15, graceful-fs@npm:^4.1.2, graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0, graceful-fs@npm:^4.2.3, graceful-fs@npm:^4.2.4, graceful-fs@npm:^4.2.6, graceful-fs@npm:^4.2.9":
   version: 4.2.10
   resolution: "graceful-fs@npm:4.2.10"
   checksum: 4223a833e38e1d0d2aea630c2433cfb94ddc07dfc11d511dbd6be1d16688c5be848acc31f9a5d0d0ddbfb56d2ee5a6ae0278aceeb0ca6a13f27e06b9956fb952
@@ -16673,6 +16684,15 @@ __metadata:
   version: 1.0.4
   resolution: "markdown-escapes@npm:1.0.4"
   checksum: cf3f2231191d9df61cd1d02a50a55a5c89ab9cebfe75572950f4844b93a41d561eed2d82e42732d55f2c55fa0d426b51df3a7f378b4068ae1e2923bb758a9cc8
+  languageName: node
+  linkType: hard
+
+"marked@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "marked@npm:4.1.1"
+  bin:
+    marked: bin/marked.js
+  checksum: 3c614fd0d11534e9b08ce5411a1e280379334392bdae4df30d5805d275c1bb29c1e3c8cc4febc898be7bb3735b83e36bb403e144fce8cd0f895dc796c33453f5
   languageName: node
   linkType: hard
 
@@ -23461,6 +23481,7 @@ __metadata:
     "@redwoodjs/forms": 3.1.1
     "@redwoodjs/router": 3.1.1
     "@redwoodjs/web": 3.1.1
+    marked: ^4.1.1
     prop-types: 15.8.1
     react: 17.0.2
     react-dom: 17.0.2
